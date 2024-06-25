@@ -12,9 +12,9 @@ export default function RootLayout({children}: {children:React.ReactNode}){
             <li><Link href="/">Home</Link></li>
             <li><Link href="/dashboard">Dashboard</Link></li>
             <li><Link href="/settings">Settings</Link></li>
+            <li><Link href="/cari">Cari Orang</Link></li>
           </ul>
           {children}
-          <div>footer</div>
         </body>
     </html>
   )
